@@ -1,0 +1,24 @@
+{
+    "name": "robsantossilva/son-laravel-pages",
+    "authors": [
+        {
+            "name": "Robson Silva",
+            "email": "robsantossilva@gmail.com"
+        }
+    ],
+    "require": {
+        "robsantossilva/son-laravel-location": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pages\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Pages\\Providers\\PageServiceProvider"
+            ]
+        }
+    }
+}
