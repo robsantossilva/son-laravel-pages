@@ -6,6 +6,7 @@
             "email": "robsantossilva@gmail.com"
         }
     ],
+    "license": "MIT",
     "require": {
         "robsantossilva/son-laravel-location": "dev-master"
     },
